@@ -1,0 +1,11 @@
+{
+  "name": "StockMonitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JosefRousal/StockMonitor",
+  "author": "Josef Rousal <josef.crichton@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  }
+}
