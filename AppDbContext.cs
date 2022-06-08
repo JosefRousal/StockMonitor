@@ -18,11 +18,10 @@ public sealed class AppDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Book>().HasData(new List<Book>()
-        {
-            new Book
+        {new Book
             {
                 Id = 1,
-                ISBN = "ABC123",
+                ISBN = "ABC1234",
                 Title = "123ABC"
             }
         });
