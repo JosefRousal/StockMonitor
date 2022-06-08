@@ -22,7 +22,7 @@ public sealed class AppDbContext : DbContext
             new Book
             {
                 Id = 1,
-                ISBN = "ABC123",
+                ISBN = "ABC1234",
                 Title = "123ABC"
             }
         });
